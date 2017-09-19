@@ -50,7 +50,7 @@ public class randomid extends HttpServlet {
 		randomId = a + reverse;
 
 		PrintWriter pw = response.getWriter();
-		pw.println("<h1>" + randomId + "</h1>");
+		pw.println("<div class='container'> <h1>" + randomId + "</h1></div>");
 
 	}
 
