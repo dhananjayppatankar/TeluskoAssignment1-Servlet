@@ -35,7 +35,7 @@ public class AddCustomerController extends HttpServlet {
 	    
 	    System.out.println(customer.getRandomid());
 	    request.setAttribute("customer", customer);
-		RequestDispatcher rd = request.getRequestDispatcher("customerid.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("randomIdForCustomer.jsp");
 	    rd.forward(request, response);
 	    
 		}

@@ -1,0 +1,30 @@
+Lecture 1 : Introduction
+Lecture 2 : Web Application Basics 
+Lecture 3 : Servlet Creation  2 ways : 1. Web.xml 2.Annotation @Webservlets
+Lecture 4: Assignment for servlets  -- random id 
+		1. JSP - extension of Servlets... JSP convert to servlets when called 
+		2. JSP Scriplets
+				- Directive    <%    %>
+				- Declarataive    <% !      %>
+				- Scriplets <%  -----   %>
+
+
+Lecture 5: Call servlets from another servlet 
+		
+		1- Create Request Dispatcher object -- request.getRequestDispatcher
+		2- Create Response SendRedirect -- response.sendRedirect 
+
+
+Lecture 6: Session Object with :			
+		
+		1. URL reWirting - (without using sessin object)
+			- str = request.getParameter in servlet 1
+			- pass the str from the URL in response.sendRedirect("display?a = " + str)
+			- create servlet 2 
+			- create new request.getParameter() and print the str
+		2. Cookies
+		3.Session  - (with using session object)
+		4. Form hiding
+		
+		
+		
